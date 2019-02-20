@@ -1,0 +1,5 @@
+<div class="todo-item">
+  <input type="checkbox" [checked]="todo.completed" (change)="handleCheckboxChange($event, todo.id)">
+  <span [ngClass]="setClasses()">{{ todo.title }}</span>
+  <button (click)="handleDelete(todo.id)">X</button>
+</div>

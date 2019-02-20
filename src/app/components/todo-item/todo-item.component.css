@@ -1,0 +1,23 @@
+.todo-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 250, 232);
+  border-bottom: 1px #ccc solid;
+}
+
+.todo-item button {
+  margin-left: auto;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.todo-item input {
+  margin-right: 10px;
+}
+
+.is-completed {
+  text-decoration: line-through;
+}
