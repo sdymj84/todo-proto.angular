@@ -9,3 +9,4 @@ Chech out the live app here : [AngularTodo](https://sdymj84.github.io/todo-proto
 ### App Details
 - Home/About pages using Angular router
 - Add/Delete/Toggle todo items
+- Depoyed on Github using angular-cli-ghpages
